@@ -12,16 +12,13 @@ This is a simple password generator application built with Python and Tkinter. I
 ## Requirements
 
 - Python 3.x
-- Tkinter (usually included with Python)
+- Tkinter (included with many Python installations; some Linux distributions provide it as a separate system package)
 
 ## Usage
 
 1. Clone the repository or download the script file.
 2. Make sure you have Python 3.x installed on your system.
-3. Install the required dependencies by running the following command:
-
-```pip install tkinter```
-
+3. Check that Tkinter is available with `python -m tkinter`. If it is missing, install the Tkinter package provided by your operating system or Python distribution.
 
 4. Run the script using Python:
 
@@ -33,6 +30,10 @@ This is a simple password generator application built with Python and Tkinter. I
 8. The generated password will be displayed in the textbox.
 9. The password is automatically copied to your clipboard.
 10. You can paste the password in any desired location.
+
+## Security
+
+This project uses Python's `random` module, which is not intended for cryptographic use. Do not use it to generate passwords for real accounts or other security-sensitive purposes.
 
 ## Customization
 
